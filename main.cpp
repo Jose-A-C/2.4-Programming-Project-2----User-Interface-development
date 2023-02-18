@@ -21,9 +21,8 @@ int main()
     int newEnrollment = 0; // new enrollment variable for atoi conversion
     double order_factor = 0.0; // order factor
     double totalValue = 0.0; // total cost of books needed
-    double numBooks = 0.0; // number of books needed
-    int newNumBooks = 0; // number of books after atoi cconversion
-
+    int numBooks = 0.0; // number of books needed
+    
     //--------  End of variable declarations -----------------------
      cout << "\x1b[2J"; // clears terminal for vs code
      //system("cls");   //if your not using VS code replace cout << "\x1b[2J"; with this code instead
@@ -161,9 +160,33 @@ int main()
               cout << "  |                                                     |  " << endl;
               cout << "  |_____________________________________________________|  " << endl;
               cout << "                                                           " << endl;
+//--------  End of the Output Screen  --------------------------
+
+	          //Transition to next screen
+	          cout << "                          Press <ENTER> to Continue";
+	          cin.get();
+	         //End of transition
+
+//--------  Start of Exit Screen  -----------------------------
+
+    cout << "\x1b[2J"; // clears terminal for vs code
+    //system("cls");   //if your not using VS code replace cout << "\x1b[2J"; with this code instead
+
+              cout << "  _______________________________________________________  " << endl;
+              cout << "  |                                                     |  " << endl;
+              cout << "  |                                                     |  " << endl;
+              cout << "  |    M I R A M A R   C O L L E G E   B O O K          |  " << endl;
+              cout << "  |                                                     |  " << endl;
+              cout << "  |       O R D E R I N G   S Y S T E M                 |  " << endl;
+              cout << "  |                                                     |  " << endl;
+              cout << "  |                                                     |  " << endl;
+              cout << "  |         Thank you for using this program.           |  " << endl;
+              cout << "  |              press <ENTER> to exit.                 |  " << endl;
+              cout << "  |                                                     |  " << endl;
+              cout << "  |                                                     |  " << endl;
+              cout << "  |_____________________________________________________|  " << endl;
+              cout << "                                                           " << endl;
+
+	          cin.get();
+
 }
-
-
-
-
-
